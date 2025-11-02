@@ -52,7 +52,7 @@ nome-do-projeto/
 
 ---
 
-## 📥 4. Instalar as dependências
+## 4. Instalar as dependências
 
 As bibliotecas **`pyautogui`** e **`keyboard`** não vêm por padrão com o Python, por isso precisam ser instaladas.
 
@@ -101,7 +101,7 @@ keyboard.wait('esc')
 
 print('Programa encerrado.')
 ```
-##  8. Executar o projeto
+##  7. Executar o projeto
 
 Para rodar o programa:
 
@@ -113,7 +113,7 @@ Durante a execução:
 - Pressione **Ctrl + Shift + T** → imprime “Iniciando tarefa...”
 - Pressione **Esc** → encerra o programa com a mensagem “Programa encerrado.”
 
-##  9. Melhoria sugerida (com tratamento de exceções)
+## 8. Melhoria sugerida (com tratamento de exceções)
 
 ```python
 import keyboard
@@ -130,7 +130,7 @@ finally:
 
 Isso garante que o programa finalize corretamente mesmo em caso de erro.
 
-## 11. Personalizando a automação
+## 9. Personalizando a automação
 
 Podes substituir o conteúdo da função `tarefa()` por qualquer ação, por exemplo:
 
@@ -142,7 +142,7 @@ def tarefa():
     print('Tarefa executada com sucesso!')
 ```
 
-## 12. Licença
+## 10. Licença
 
 Este projeto é de uso livre para fins educativos e demonstração.  
 Sinta-se à vontade para adaptar, melhorar e publicar as suas próprias automações!
